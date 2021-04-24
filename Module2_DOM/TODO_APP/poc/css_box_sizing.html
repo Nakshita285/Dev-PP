@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height:50px;
+        width:200px;
+        padding-left: 10px;
+        padding-top:10px;
+        border:2px dotted darkblue;
+        margin-left: 20px;
+        margin-top:10px;
+        background: pink;
+
+    }
+    .box-sizing{
+        box-sizing:border-box;
+    }
+    .box-size{
+        box-sizing: content-box;
+    }
+</style>
+<body>
+    <div class="box">
+        Click Me Please!
+    </div>
+
+    <div class="box box-sizing">
+        Click Me Please!
+    </div>
+
+    <div class="box box-size">
+        Click Me Please!
+    </div>
+</body>
+</html>
