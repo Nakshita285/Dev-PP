@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    display:block;
+}
+head{
+        display: block;
+        margin: auto;
+        text-align: center;
+}
+.content{
+
+
+}
+.filter-container{
+    height: 15vh;
+    background: #2d3436;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.filter-choose{
+    height: 50%;
+    width: 30%;
+    background-color: #353b48;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+    width: 20%;
+}
+/* .pink-container{
+    height: 100%;
+    width: 20%;
+
+}
+.blue-container{
+height: 100%;
+width: 20%;
+}
+.red-container{
+
+    height: 100%;
+    width: 20%;
+
+}
+.yellow-container{
+
+    height: 100%;
+    width: 20%;
+
+}
+.green-container{
+    height: 100%;
+    width: 20%;
+
+} */
+
+.box{
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 23px;
+    border: black;
+}
+
+
+
+.pink{
+    background-color: #e84393;    
+}
+.blue{
+    background-color: #0097e6;
+}
+.red{
+    background-color: #c23616;
+}
+.yellow{
+    background-color: #fbc531;
+}
+.green{
+    background-color: #16a085;
+}
+
+
+.action-choose{
+    background-color: #353b48;
+    height: 60%;
+    width: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.add-ticket{
+    color: whitesmoke;
+    height: 100%;
+    width: 50%;
+}
+.far {
+    font-family: "Font Awesome 5 Free";
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    margin-block: 12px;
+    margin-left: 22px;
+
+}
+.delete-ticket{
+    color: whitesmoke;
+    height: 100%;
+    width: 50%;
+}
+
+.ticket-container{
+    height: 85vh;
+}
+
+.fas{
+    font-family: "Font Awesome 5 Free";
+    font-size: 2em;
+    font-weight: 600;
+    display: block;
+    margin-block: 12px;
+    margin-left: 22px;
+}
+
+.add-ticket:hover, .delete-ticket:hover  {
+    background-color: #40739e !important; 
+}
+.container:hover{
+    background-color: #40739e !important;
+}
