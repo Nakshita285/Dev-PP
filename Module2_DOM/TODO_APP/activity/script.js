@@ -24,11 +24,8 @@ function addTodo(){
             // event.target.parentNode.childNodes[0].remove();
         })
 
-        deleteButton.addEventListener(  "keypress", function(event){
-            if(event.key == "Backspace"){
-                console.log("backspace key is pressed");
-                // deleteTaskFun(event);
-            }
+        listItems.addEventListener( "dblclick", function(event){
+            deleteTaskFun(event);
         })
 
         listItems.append(pTag, deleteButton);
