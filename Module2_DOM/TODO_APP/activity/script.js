@@ -20,13 +20,13 @@ function addTodo(){
         deleteButton.addEventListener(  "click", function(event){
             console.log("delete button is clicked!!" );
             console.log(event);
-            // deleteTaskFun(event);
+            deleteTaskFun(event);
             // event.target.parentNode.childNodes[0].remove();
         })
 
         deleteButton.addEventListener(  "keypress", function(event){
             if(event.key == "Backspace"){
-                console.log("backspace key is pressed")
+                console.log("backspace key is pressed");
                 // deleteTaskFun(event);
             }
         })
