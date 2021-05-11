@@ -7,13 +7,15 @@
     <title>Ticket Management System</title>
     <link rel="stylesheet" href="style_jira.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="content">
         <div class="filter-container">
             <div class="filter-choose">
                 <div class="container">
-                    <div class="pink box"></div>
+                    <div class="pink box "></div>
                 </div>  
                 <div class="container">
                     <div class="blue box"></div>
@@ -25,7 +27,7 @@
                     <div class="yellow box"></div>
                 </div>
                 <div class="container">
-                    <div class="green box"></div>
+                    <div class="green box active-filter"></div>
                 </div>
 
             </div>
@@ -38,10 +40,48 @@
                 </div>
             </div>
         </div>
+       
+       
         <div class="ticket-container">
+            <!-- tickets -->
+            <!-- <div class="tickets">
+                <div class="filter-and-lock">
+                    <div class="ticket-filter blue"></div>
+                    <div class="lock">
+                        <i class="fas fa-lock"></i>
+                        <i class="fas fa-unlock"></i>    
+                    </div>
+                </div>
+                
+                <div class = "ticket-info">
+                     <div class="ticket-id">#ExampleId</div>
+                <div class="delete-ticket">
+                    <i class="fas fa-trash fa-2x"></i>
+                </div>
+                </div>
+               
+                <div class="ticket-content">Hey! my name is nakshita malhotra!!</div>
+            </div> -->
+            
 
-        </div>
-    </div>
+            <!-- Modal Page 
+            <div class="modal-page">
+                <div class="modal-input" contenteditable="true" value="default value">
+                        Type Your Text Here !!!
+                </div>
+
+                <div class="modal-filter-option">
+                    <div class="modalFilter pink"></div>
+                    <div class="modalFilter blue"></div>
+                    <div class="modalFilter red"></div>
+                    <div class="modalFilter yellow"></div>
+                    <div class="modalFilter green active-filter"></div>
+
+                </div>
+            </div> -->
+        </div> 
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    
     <script src="script_jira.js"></script>
 </body>
 </html>
