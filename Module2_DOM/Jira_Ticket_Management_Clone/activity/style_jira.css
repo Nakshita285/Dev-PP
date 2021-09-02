@@ -245,11 +245,11 @@ width: 20%;
     border: white 3px solid;
 }
 
-.del.fa-2x{
-    size: 1.2rem  !important;
+.del{
     color: black;
-    font-weight: 600;
-    display: table-cell;
+    font-size: 1.4rem !important;
+    margin-top: 6px;
+    margin-right: 9px;
 
 }
 .ticket-info{
@@ -268,12 +268,19 @@ width: 20%;
 
 }
 .fa-lock{
-
+    margin-block: 26px;
+    margin-left: 229px;
+    font-size: 1.4rem;
 }
 
 .fa-unlock{
-
+    margin-block: 32px;
+    margin-left: 1px;
+    font-size: 1.4rem;
 }
 .lock{
     
+}
+.del2{
+    margin-block: 12px;
 }
